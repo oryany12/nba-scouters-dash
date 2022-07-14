@@ -20,8 +20,7 @@ import compare_players_section as cwps
 import box_plot_section
 
 #Global paramete
-#app = Dash(__name__, suppress_callback_exceptions=True)
-app = dash.Dash()
+app = Dash(__name__, suppress_callback_exceptions=True)
 server=app.server
 
 # DF's
