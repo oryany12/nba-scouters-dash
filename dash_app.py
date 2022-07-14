@@ -267,4 +267,4 @@ def update_box_plot(n_clicks,atk_or_dfs, value1, value2):
   return fig
 
 if __name__ == '__main__':
-    app.run_server(port=80,debug=True,)
+    app.run_server(debug=True,)
