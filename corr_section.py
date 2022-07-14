@@ -2,7 +2,6 @@ import plotly
 import pandas as pd
 import numpy as np
 import plotly.express as px
-from google.colab import drive
 
 def pre_processing():
   path_players = "merge_2018_player.csv"
