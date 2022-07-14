@@ -21,6 +21,7 @@ import box_plot_section
 
 #Global paramete
 app = Dash(__name__, suppress_callback_exceptions=True)
+server=app.server
 
 # DF's
 players_2018 = corr_section.pre_processing()
