@@ -19,9 +19,10 @@ def pre_processing():
   return Player_Salary
 
 def make_players_graph_salary():
-  fig =  px.histogram()
-  fig.update_layout(title_text="Salary over Years", title_x=0.5)
-  return fig
+  return None
+#   fig =  px.histogram()
+#   fig.update_layout(title_text="Salary over Years", title_x=0.5)
+#   return fig
 
 
 def make_players_graph_salary_2(df,name1,name2):
